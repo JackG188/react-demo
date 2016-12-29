@@ -10,7 +10,7 @@ const players = [
     'cover': 'kc-cover.jpg',
     'link': 'http://www.transfermarkt.co.uk/kevin-cuthbert/profil/spieler/14578',
     'about': 'The former Hamilton stopper, known as "The Cat", was a key member of Accies promotion winning team last season where his last actions were saving two penalties in that dramatic and unforgettable Premiership Play Off shoot out at Easter Road in May 2014. \r\n Kevin has over 260 appearances for St Johnstone, Morton, Ayr United and Hamilton behind him, Kevin made his Rovers debut against Inverness Caledonian Thistle in a pre-season friendly on 19th July 2014 although his appearances during the 2014-15 season were hampered by injury. \r\n Kevin established himself as the No. 1 choice last season and was an ever-present in all competitive games in the 2015-16 season, He was awarded both the Managers and Players Player of the Year trophies for 2015-16. In April 2016, Kevin signed a contract extension committing himself to Raith Rovers until the summer of 2018.',
-    'stats': {  'position': 'GK',
+    'stats': {  'position': 'Goalkeeper',
                 'goals':'0',
                 'apps':'16',
                 'yellows':'0',
@@ -35,7 +35,7 @@ const players = [
               +"\nJason was an ever-present in the 2014-15 season playing every minute of every league and cup game."
               +"\nJason picked up a back injury in the game against Livingston on 31st October which has kept him out for a number of games. He returned to first team action as a second half substitute against Falkirk on 13th February 2016."
               +"\nJason has missed 11 consecutive league games in the 2016-17 season with injury but made a welcome return against Hibernian on 24th December, 2016 playing in the unfamiliar left back slot.",
-    'stats': {  'position': 'Right Back',
+    'stats': {  'position': 'Defender',
                 'goals':'0',
                 'apps':'10',
                 'yellows':'0',
@@ -55,7 +55,7 @@ const players = [
               +"The former Hearts and Kilmarnock star, who also has earned 6 Scotland Under 21 caps, previously worked under manager Gary Locke at both of these clubs making a total of 93 appearances in the Premiership."
               +"Kevin is a local lad and went to Auchmuty High School in Glenrothes and his family are all Rovers supporters."
               +"Kevin made his Rovers debut in a 2-0 defeat against Forfar Athletic in a pre-season friendly on 28th June, 2016.",
-    'stats': {  'position': 'Left Back',
+    'stats': {  'position': 'Defender',
                 'goals':'2',
                 'apps':'21',
                 'yellows':'6',
@@ -79,7 +79,7 @@ const players = [
               +"Ross extended his Rovers contract through until summer 2017. Ross is currently out injured, and expected to be out for a few weeks, having dislocated his shoulder in a freak accident away from football."
               +"Ross returned to first team action on 7th November coming on as a second half substitute in the 1-2 defeat to Falkirk at Stark's Park having been out for 8 weeks."
               +"Ross has recently made his 150th first team appearance for the club when he played against Partick Thistle on 5th July 2016.", 
-    'stats': {  'position': 'Midfield',
+    'stats': {  'position': 'Midfielder',
                 'goals':'3',
                 'apps':'21',
                 'yellows':'6',
@@ -99,7 +99,7 @@ const players = [
               +"Manager Gary Locke has tracked the player’s progress for some time, having previously watched him several times when he appeared regularly for League 1 sides Oldham Athletic, Barnsley and Southend United between 2009 and 2015 scoring 11 goals in 167 matches."
               +"Jean-Yves made played as a trialist for Rovers against Arbroath on 9th July, 2016 and made his official debut as a Rovers player in the Betfred League Cup tie against Ross County on 23rd July, 2016."
               +"Jean-Yves was nominated for the SPFL team of the year (so far) on 26th December, 2016 where players are selected from all four divisions.", 
-    'stats': {  'position': 'Centre Back',
+    'stats': {  'position': 'Defender',
                 'goals':'2',
                 'apps':'19',
                 'yellows':'2',
@@ -119,7 +119,7 @@ const players = [
               +"Although Kyke only joined the Rovers at the start of the 2015-16 campaign, the central defender has already made his 50th appearance for the club in the game against Ross County last Saturday."
               +"He made his first team debut in the pre-season friendly against Hearts on 7th July 2015. It wasn’t long before Kyle got himself on the Rovers scoresheet when he scored the second goal in a 3-0 victory over Albion Rovers at Stark’s Park in the first round of the League Cup. In total, Kyle scored an impressive 5 goals last season and has already got his tally for this season off and running with the opening goal against Cove Rangers in the Betfred League Cup match."
               +"He signed a one year contract extension in early 2016 that will see him stay at Stark's Park until summer 2017.", 
-    'stats': {  'position': 'Centre Back',
+    'stats': {  'position': 'Defender',
                 'goals':'1',
                 'apps':'21',
                 'yellows':'6',
@@ -139,7 +139,7 @@ const players = [
             +"Chris joined Kilmarnock in 2012 and quickly earned his first team debut in March of that year before going on to make 68 appearances for the Rugby Park outfit, scoring 6 goals. Unfortunately, Chris sustained a cruciate ligament injury last August, only 10 days after Lewis Vaughan’s ACL injury, but he has since fought back to fitness and took part in several Development matches towards the end of last season."
             +"Released in May 2016 by Kilmarnock, manager Gary Locke moved swiftly to secure the speedy winger / midfielder’s signature."
             +"Chris made his Rovers debut in the 2-0 defeat against Forfar Athletic in a pre-season friendly on 28th June 2016 and scored his first goal for the club in the friendly against Brechin on 2nd July.", 
-    'stats': {  'position': 'Winger',
+    'stats': {  'position': 'Midfielder',
                 'goals':'1',
                 'apps':'15',
                 'yellows':'1',
@@ -157,7 +157,7 @@ const players = [
     'link': 'http://www.transfermarkt.co.uk/scott-robertson/leistungsdaten/spieler/43521',
     'about': "Scott began his career with Dundee although made his senior debut whilst on-loan at Peterhead in 2004. He went on to make over 100 appearances for the Dens Park club before moving to city rivals United in 2008. He stayed at Tannadice for four seasons, making over 100 appearances and picking up a Cup Winners medal in 2010. In July 2012 he signed a two year deal with Blackpool but the move did not go well and Scott was released from his contract in January 2013. Scott was signed for Hibernian by former manager Pat Fenlon on a two-and-a-half-year deal. He started 41 of Hibs’ 46 competitive matches in the season 2014-15 d and was their third-top-scorer, with six goals. Scott was released by Hibernian in the Summer 2015 and he signed for Romanian club Botosani in June 2015 although only made one appearance. Ray McKinnon snapped up the twice capped Scottish internationalist on 3rd October 2015 until the end of the season, but Scott extended that contract by a year in April 2016."
             +"Scott's start to the 2016-17 season has been so far hampered by injury.", 
-    'stats': {  'position': 'Midfield/Injury Table',
+    'stats': {  'position': 'Midfielder',
                 'goals':'0',
                 'apps':'0',
                 'yellows':'0',
@@ -179,6 +179,31 @@ const players = [
                 'goals':'5',
                 'apps':'21',
                 'yellows':'2',
+                'reds':'0'
+              }
+  },
+
+  {
+    'id': 'lv',
+    'name': 'Lewis Vaughan',
+    'country': 'sco',
+    'birth': '19th December 1995',
+    'image': 'lv.jpg',
+    'cover': 'lv-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/lewis-vaughan/leistungsdaten/spieler/241542',
+    'about': "Lewis was awarded a two and a half year professional contract by then manager John McGlynn in January 2012. Lewis impressed with his performances for the U-19 team having stepped up at the young age of 16."
+              +"Edinburgh based Lewis has been at Stark's Park since the age of 14."
+              +"Lewis made his first team dubut in the final game of season 2011-12 coming on as a second half substitute in the 3-1 victory over Morton."
+              +"Lewis made 3 league appearances in 2012-13 season."
+              +"Lewis made a number of valuable contributions during the 2013-14 season with six assists and three goals."
+              +"In 2014-15 Lewis became more of a first team regular and went on to make 26 appearances, scoring 7 goals."
+              +"Lewis started the 2015-16 season full of promise only to be shattered when he picked up a serious injury rupturing his anterior cruciate ligament against Albion Rovers and did not play another competitive game in the season."
+              +"He signed a one year contract extension in March 2016 which will see him stay at the club until the summer 2017."
+              +"Lewis has started the 2016-17 season playing in every game and notching 2 goals in the pre-season friendlies and 2 goals in the Betfred League Cup.", 
+    'stats': {  'position': 'Forward',
+                'goals':'2',
+                'apps':'18',
+                'yellows':'0',
                 'reds':'0'
               }
   }

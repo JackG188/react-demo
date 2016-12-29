@@ -9,6 +9,11 @@ export default class PlayerPreview extends React.Component {
         <div className="athlete-preview">
           <img src={`img/${this.props.image}`}/>
           <h2 className="name">{this.props.name}</h2>
+          <div className="preview-stats">
+            <span className="goal"><img src="/img/goal.png"/>{this.props.stats.goals}</span>
+            <span className="yellows"><img src="/img/yellow-card.png"/>{this.props.stats.yellows}</span>
+            <span className="reds"><img src="/img/red-card.png"/>{this.props.stats.reds}</span>
+          </div>
         </div>
       </Link>
     );

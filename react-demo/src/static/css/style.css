@@ -96,19 +96,52 @@ footer p {
   width: 100%;
 }
 
-.home .athletes-selector .athlete-preview .medals-count {
+.home .athletes-selector .athlete-preview .preview-stats {
+  display: inline-block;
+  left: 95px;
+  top: 0px;
+  position: absolute;
+}
+
+.home .athletes-selector .athlete-preview .preview-stats .goal {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
   font-weight: bold;
-  margin: .2em;
-  padding: .2em .4em;
-  position: absolute;
-  right: 0;
+  margin: 2px;
+  padding: 4px;
   text-align: center;
-  top: 0;
   vertical-align: middle;
+  width: 30px;
+  height: 45px; 
 }
+
+.home .athletes-selector .athlete-preview .preview-stats .yellows {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  font-weight: bold;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 45px;
+}
+
+.home .athletes-selector .athlete-preview .preview-stats .reds {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  font-weight: bold;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+  height: 45px;
+}
+
 
 nav.atheletes-menu {
   margin: 0 auto;

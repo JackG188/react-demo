@@ -8,7 +8,14 @@ export default class IndexPage extends React.Component {
     return (
       <div className="home">
         <div className="athletes-selector">
-          {players.map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
+          	<h2>Goalkeepers</h2>
+          	{players.filter(function(playerData){return playerData.stats.position==='Goalkeeper'}).map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
+          	<h2>Defenders</h2>
+          	{players.filter(function(playerData){return playerData.stats.position==='Defender'}).map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
+          	<h2>Midfielders</h2>
+          	{players.filter(function(playerData){return playerData.stats.position==='Midfielder'}).map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
+          	<h2>Forwards</h2>
+          	{players.filter(function(playerData){return playerData.stats.position==='Forward'}).map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
         </div>
       </div>
     );
