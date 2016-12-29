@@ -85,6 +85,102 @@ const players = [
                 'yellows':'6',
                 'reds':'0'
               }
+  },
+
+  {
+    'id': 'jym',
+    'name': 'Jean-Yves M`voto',
+    'country': 'fr',
+    'birth': '6th September 1988',
+    'image': 'jym.jpg',
+    'cover': 'jym-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/jean-yves-mvoto/leistungsdaten/spieler/55381',
+    'about': "Having originally been on the books of Paris Saint-Germain until the age of 20, Jean-Yves most recently starred for Polish second tier side WKS Zawisza Bydgoszcz SA, since he joined them in January 2016 following a brief loan spell with English League 2 side Leyton Orient."
+              +"Manager Gary Locke has tracked the player’s progress for some time, having previously watched him several times when he appeared regularly for League 1 sides Oldham Athletic, Barnsley and Southend United between 2009 and 2015 scoring 11 goals in 167 matches."
+              +"Jean-Yves made played as a trialist for Rovers against Arbroath on 9th July, 2016 and made his official debut as a Rovers player in the Betfred League Cup tie against Ross County on 23rd July, 2016."
+              +"Jean-Yves was nominated for the SPFL team of the year (so far) on 26th December, 2016 where players are selected from all four divisions.", 
+    'stats': {  'position': 'Centre Back',
+                'goals':'2',
+                'apps':'19',
+                'yellows':'2',
+                'reds':'0'
+              }
+  },
+
+  {
+    'id': 'kb',
+    'name': 'Kyle Benedictus',
+    'country': 'sco',
+    'birth': '7th December 1991',
+    'image': 'kb.jpg',
+    'cover': 'kb-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/kyle-benedictus/leistungsdaten/spieler/91273',
+    'about': "Following a seven year period at Dundee, Ray McKinnon was keen to sign the young but experienced defender on 10th June 2015. Kyle had made nearly 80 appearances for the Den's Park club and more recently was a key member of the Alloa team having spent the 2014-15 season on-loan at the Indodrill Stadium."
+              +"Although Kyke only joined the Rovers at the start of the 2015-16 campaign, the central defender has already made his 50th appearance for the club in the game against Ross County last Saturday."
+              +"He made his first team debut in the pre-season friendly against Hearts on 7th July 2015. It wasn’t long before Kyle got himself on the Rovers scoresheet when he scored the second goal in a 3-0 victory over Albion Rovers at Stark’s Park in the first round of the League Cup. In total, Kyle scored an impressive 5 goals last season and has already got his tally for this season off and running with the opening goal against Cove Rangers in the Betfred League Cup match."
+              +"He signed a one year contract extension in early 2016 that will see him stay at Stark's Park until summer 2017.", 
+    'stats': {  'position': 'Centre Back',
+                'goals':'1',
+                'apps':'21',
+                'yellows':'6',
+                'reds':'1'
+              }
+  },
+
+  {
+    'id': 'cj',
+    'name': 'Chris Johnston',
+    'country': 'sco',
+    'birth': '3rd September 1994',
+    'image': 'cj.jpg',
+    'cover': 'cj-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/chris-johnston/leistungsdaten/spieler/213114',
+    'about': "Chris Johnston signed a one year deal with Rovers, joining the club on 6th June, 2016."
+            +"Chris joined Kilmarnock in 2012 and quickly earned his first team debut in March of that year before going on to make 68 appearances for the Rugby Park outfit, scoring 6 goals. Unfortunately, Chris sustained a cruciate ligament injury last August, only 10 days after Lewis Vaughan’s ACL injury, but he has since fought back to fitness and took part in several Development matches towards the end of last season."
+            +"Released in May 2016 by Kilmarnock, manager Gary Locke moved swiftly to secure the speedy winger / midfielder’s signature."
+            +"Chris made his Rovers debut in the 2-0 defeat against Forfar Athletic in a pre-season friendly on 28th June 2016 and scored his first goal for the club in the friendly against Brechin on 2nd July.", 
+    'stats': {  'position': 'Winger',
+                'goals':'1',
+                'apps':'15',
+                'yellows':'1',
+                'reds':'0'
+              }
+  },
+
+    {
+    'id': 'sr',
+    'name': 'Scott Robertson',
+    'country': 'sco',
+    'birth': '7th April 1985',
+    'image': 'sr.jpg',
+    'cover': 'sr-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/scott-robertson/leistungsdaten/spieler/43521',
+    'about': "Scott began his career with Dundee although made his senior debut whilst on-loan at Peterhead in 2004. He went on to make over 100 appearances for the Dens Park club before moving to city rivals United in 2008. He stayed at Tannadice for four seasons, making over 100 appearances and picking up a Cup Winners medal in 2010. In July 2012 he signed a two year deal with Blackpool but the move did not go well and Scott was released from his contract in January 2013. Scott was signed for Hibernian by former manager Pat Fenlon on a two-and-a-half-year deal. He started 41 of Hibs’ 46 competitive matches in the season 2014-15 d and was their third-top-scorer, with six goals. Scott was released by Hibernian in the Summer 2015 and he signed for Romanian club Botosani in June 2015 although only made one appearance. Ray McKinnon snapped up the twice capped Scottish internationalist on 3rd October 2015 until the end of the season, but Scott extended that contract by a year in April 2016."
+            +"Scott's start to the 2016-17 season has been so far hampered by injury.", 
+    'stats': {  'position': 'Midfield/Injury Table',
+                'goals':'0',
+                'apps':'0',
+                'yellows':'0',
+                'reds':'0'
+              }
+  },
+
+  {
+    'id': 'ms',
+    'name': 'Mark Stewart',
+    'country': 'sco',
+    'birth': '22nd June 1988',
+    'image': 'ms.jpg',
+    'cover': 'ms-cover.jpg',
+    'link': 'http://www.transfermarkt.co.uk/mark-stewart/leistungsdaten/spieler/36772',
+    'about': "Mark played youth football for Celtic and Partick Thistle before joining Falkirk in 2006. He scored within two minutes of his professional debut in a 5-0 win over Cowdenbeath. He went on to make nearly 80 appearances for the Bairns, scoring 19 goals. Mark joined Bradford in 2011 with the Yorkshire club paying Falkirk £213,000 for training and development compensation fees. He made 12 appearances for the club and went out on-loan to Hamilton during that period, He joined Dundee in 2012 where he made 15 appearances, scoring 3 goals. He had a trial for Luton Town before joining Kilmarnock in August 2013. He made only four appearances for the Rugby Park Club before breaking his jaw in a training ground accident. He was released after five months and joined Derry City, scoring on his debut against Shamrock Rovers."
+            +"Signed for Rovers on June 23rd, 2014 and made his debut against Edinburgh City in a pre-season friendly on 9th July 2014. Mark was top league scorer in both 2014-15 and 2015-16 with 10 goals in each season.", 
+    'stats': {  'position': 'Forward',
+                'goals':'5',
+                'apps':'21',
+                'yellows':'2',
+                'reds':'0'
+              }
   }
 ];
 

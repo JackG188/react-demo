@@ -25,6 +25,8 @@ export default class PlayerPage extends React.Component {
             <h2 className="name">{player.name}</h2>
           </div>
           <section className="description">
+            {player.birth} <strong><Flag code={player.country} showName="true"/></strong>
+            <br></br> 
             {player.about}
           </section>
           <section className="social">
