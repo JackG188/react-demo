@@ -16,9 +16,9 @@ export default class PlayerPage extends React.Component {
     }
     const headerStyle = { backgroundImage: `url(/img/${player.cover})` };
     return (
-      <div className="athlete-full">
+      <div className="player-full">
         <PlayersMenu/>
-        <div className="athlete">
+        <div className="player">
           <header style={headerStyle}/>
           <div className="picture-container">
             <img src={`/img/${player.image}`}/>
@@ -29,7 +29,7 @@ export default class PlayerPage extends React.Component {
             <br></br> 
             {player.about}
           </section>
-          <section className="social">
+          <section className={!player.hasSocial ? 'hidden' : 'social'} >
             <h3>Social Media</h3>
             <a href={player.social}>
               <img src={`/img/twitter.png`} />

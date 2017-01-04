@@ -7,7 +7,7 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <div className="home">
-        <div className="athletes-selector">
+        <div className="players-selector">
           	<h2>Goalkeepers</h2>
           	{players.filter(function(playerData){return playerData.stats.position==='Goalkeeper'}).map(playerData => <PlayerPreview key={playerData.id} {...playerData} />)}
           	<h2>Defenders</h2>
